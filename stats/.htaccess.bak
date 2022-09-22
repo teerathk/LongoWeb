@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName " Statistics"
+AuthUserFile /home/c4jj3bt2iev2/public_html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html
