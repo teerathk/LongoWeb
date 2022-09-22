@@ -14,13 +14,12 @@ if ($mysqli->connect_errno) {
     exit();
 }
 
-function connection()
-{
-$host = "localhost";
-$user = 'plegopro_longonew';
-$password = 'LongoNew@123';
-$database = 'plegopro_longonew';
-    
+function connection() {
+    $host = "localhost";
+    $user = 'plegopro_longonew';
+    $password = 'LongoNew@123';
+    $database = 'plegopro_longonew';
+
     $mysqli = new mysqli($host, $user, $password, $database);
 
     // Check connection
