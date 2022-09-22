@@ -24,7 +24,7 @@ class db {
 	public function __construct() {
 		global $baseHost;
                 die($baseHost);
-                $this->dbHost = '127.0.0.1';
+                $this->dbHost = 'localhost';
                 $this->dbUserName = 'plegopro_longonew';
                 $this->dbPassword = 'LongoNew@123';
                 $this->dbName = 'plegopro_longonew';
